@@ -27,7 +27,7 @@ from Bio import SeqIO
 
 '''
 ~/scripts/get_sequence_length.py -l 0 \
-  -f /home/aline/HES_so/raw_data/references/S_aureus/project_PRJNA531079/S_aureus_G07I_assembly.fna \
+  -f ~/raw_data/references/S_aureus/S_aureus_G07I_assembly.fna \
   -t fasta
 '''
 
