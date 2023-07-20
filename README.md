@@ -1,5 +1,5 @@
 # bioinformatics_utils
-Here are some useful small scripts for bioinformatics
+Here are some useful small basic scripts for bioinformatics, mainly for work with DNA/RNA or protein sequences.
 
 ## get_sequence_length.py
 Given a fasta/q file, returns a table with the readnames (1st column) and their corresponding length (2nd column).
