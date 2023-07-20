@@ -7,10 +7,10 @@ Given a fasta/q file, returns a table with the readnames (1st column) and their 
 ### Prerequisite : 
 Biopython needs to be installed 
 
-#### Options : 
+### Options : 
 -l <min_read_length> will set a minimum threshold on the length
 
-#### Example command line
+### Example command line
 ```{bash}
 ~/scripts/get_sequence_length.py -l 0 \
   -f ~/raw_data/references/S_aureus/S_aureus_G07I_assembly.fna \
@@ -34,7 +34,7 @@ fasta/q file, with the additional suffix '_selection'.
 This scripts uses a big amount of ram if the input fasta/q is big.
 Biopython needs to be installed
 
-#### Example command line
+### Example command line
 ```
 /home/aline/scripts/create_fasta_from_seqname_speed_up.py \
   -n /mnt/metagenomic/hmmsearch/2010_ppk_in_ref_and_bins/list_of_sequences_to_keep.csv \
